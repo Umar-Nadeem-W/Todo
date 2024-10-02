@@ -1,4 +1,4 @@
-
+import '../styles.css'
 import { useState } from "react";
 export default function ({todos,setTodos}){
     const [todo, setTodo] = useState("");
@@ -13,12 +13,13 @@ export default function ({todos,setTodos}){
 
     
     return (
-    <form onSubmit={handleSubmit}>
-        <div>
-    <input type="text" 
+    <form  onSubmit={handleSubmit}>
+    <div className='form-container' >
+    <input className="input-container" type="text" 
+    placeholder='Enter another item'
      onChange={(e) => setTodo(e.target.value)}
      value={todo}/>  
-    <button type="submit">Add</button>
+    <button className="button-style" type="submit">Add</button>
     </div>
     </form>
     );
