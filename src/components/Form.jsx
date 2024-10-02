@@ -14,10 +14,12 @@ export default function ({todos,setTodos}){
     
     return (
     <form onSubmit={handleSubmit}>
+        <div>
     <input type="text" 
      onChange={(e) => setTodo(e.target.value)}
      value={todo}/>  
     <button type="submit">Add</button>
+    </div>
     </form>
     );
 }
