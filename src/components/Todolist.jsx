@@ -1,10 +1,11 @@
 import TodoItem from "./TodoItem"
+import '../styles.css'
 
-export default function Todolist({todos}){
+export default function Todolist({todos, setTodos}){
 
-    return <div> 
+    return <div className="todoList-style"> 
         {todos.map((item) => (
-                <TodoItem key={item} item ={item}/>
+                <TodoItem setTodos={setTodos} todos={todos} key={item} item ={item}/>
             ))}
     </div>
 }
