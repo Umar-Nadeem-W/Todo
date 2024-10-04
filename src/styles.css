@@ -86,7 +86,7 @@
 }
 
 .todoItem-style{
-  background-color: rgb(47, 192, 224);
+  background-color: rgb(145, 209, 223);
 box-shadow: 0px 4px 6px rgba(0,0 ,0,0.1);
 padding: 5%;
 margin-bottom: 2%;
@@ -101,4 +101,8 @@ justify-content: space-between;
   border-radius: 15%;
   border: 1px solid black;
   
+}
+.cross-style{
+  text-decoration: line-through;
+  color: red;
 }
