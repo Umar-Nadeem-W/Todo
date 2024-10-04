@@ -106,3 +106,39 @@ justify-content: space-between;
   text-decoration: line-through;
   color: red;
 }
+
+.counter-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 5%;
+  width: 20%;
+  
+}
+
+
+.counter-container-1{
+  margin: 5%;
+  height: 100px;
+  width: 300px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+  background: linear-gradient(to bottom right, rgb(118, 2, 201), rgb(208, 148, 251),rgb(118, 2, 201));
+}
+
+.counter-container-2{
+  margin: 5%;
+  height: 100px;
+  width: 300px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+  background: linear-gradient(to bottom right, rgb(0, 104, 31), rgb(93, 255, 141),rgb(0, 104, 31));
+}
